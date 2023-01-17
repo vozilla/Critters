@@ -27,7 +27,7 @@ public class Giant extends Critter
         return Color.GRAY;
     }
     public String toString() {
-
+        
         if(feecount < 6){
             feecount++;
             return "fee";
@@ -48,6 +48,6 @@ public class Giant extends Critter
             feecount = 0;
             return "fee";
         }
-
+        
     }//end of string
 }//end of class
